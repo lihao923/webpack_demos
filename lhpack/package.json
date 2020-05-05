@@ -1,0 +1,22 @@
+{
+  "name": "lhpack",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "bin": {
+    "lhpack": "./bin/lhpack.js"
+  },
+  "devDependencies": {
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7"
+  },
+  "dependencies": {
+    "@babel/generator": "^7.9.5",
+    "@babel/traverse": "^7.9.5",
+    "@babel/types": "^7.9.5",
+    "babel-traverse": "^6.26.0",
+    "babylon": "^6.18.0",
+    "ejs": "^3.0.2",
+    "tapable": "^1.1.3"
+  }
+}
